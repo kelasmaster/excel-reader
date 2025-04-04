@@ -1,0 +1,29 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+#dataContainer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#dataContainer th,
+#dataContainer td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#dataContainer th {
+  background-color: #0d6efd;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
